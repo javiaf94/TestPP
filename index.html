@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrimerParcialJavierFernandez</title>
+
+    <script type="text/javascript" src="./js/parcial.js"></script>    
+    <link rel="stylesheet" href="./css/parcial.css">
+</head>
+<body>
+
+    <div id="divContDatos" class="contenedorDatos" visible="0">
+
+        <div id="divSalir">
+            <input type="button" value="X" id="btnSalir">            
+        </div>
+
+        <div>
+            <label for="txtNombre">Nombre</label>
+        </div>
+
+        <div id="divNombre">
+            <input type="text" id="txtNombre">
+        </div>
+
+        <div>
+            <label for="txtApellido">Apellido</label>
+        </div>
+
+        <div id="divApellido">
+            <input type="text" id="txtApellido">
+        </div>
+
+        <div>
+            <label for="txtFecha">Fecha</label>
+        </div>
+
+        <div id="divFecha">
+            <input type="date" id="txtFecha">
+        </div>
+
+        <div>
+            <label for="divSexo">Sexo</label>
+        </div>
+
+        <div>
+            <input type="radio" id="radioMasc" name="sexo" value="Male">      
+            <label for="radioMasc">Masculino</label>
+        </div>
+
+        <div>
+            <input type="radio" id="radioFem" name="sexo" value="Femenino">
+            <label for="radioFem">Femenino</label>
+        </div>
+
+
+        <div id="divBotones">
+            <div>
+                <input type="button" value="Eliminar" id="btnEliminar">
+            </div>
+
+            <div>
+                <input type="button" value="Guardar" id="btnGuardar">
+            </div>
+
+        </div>
+        
+    </div>
+    <div id="spinner" visible="0"><img src="./img/loading.gif" alt="Be patient..." /></div>
+    <table id="tabla">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Fecha</th>
+                <th>Sexo</th>
+            </tr>
+        </thead>
+        <tbody id="tCuerpo">
+
+        </tbody>
+    </table>
+</body>
+</html>
